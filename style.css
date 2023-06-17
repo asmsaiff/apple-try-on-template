@@ -1,0 +1,17 @@
+body {
+    background-color: #161617;
+}
+
+.grad-color {
+    background: -webkit-linear-gradient(45deg, #48c7f5 60%, #266EC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-bg {
+    -webkit-backdrop-filter: saturate(250%) blur(100px) brightness(100%);
+    -moz-backdrop-filter: saturate(250%) blur(100px) brightness(100%);
+    -o-backdrop-filter: saturate(250%) blur(100px) brightness(100%);
+    -ms-backdrop-filter: saturate(250%) blur(100px) brightness(100%);
+    backdrop-filter: saturate(250%) blur(100px) brightness(100%);
+}
