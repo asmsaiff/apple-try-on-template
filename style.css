@@ -1,6 +1,10 @@
 body {
     background-color: #161617;
 }
+.disable-scrolling{
+    height: 100%;
+    overflow: hidden;
+}
 
 .grad-color {
     background: -webkit-linear-gradient(45deg, #48c7f5 60%, #266EC8);
@@ -14,4 +18,14 @@ body {
     -o-backdrop-filter: saturate(250%) blur(100px) brightness(100%);
     -ms-backdrop-filter: saturate(250%) blur(100px) brightness(100%);
     backdrop-filter: saturate(250%) blur(100px) brightness(100%);
+}
+
+#panel {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+}
+  
+#panel-content {
+    scroll-snap-align: start;
 }
